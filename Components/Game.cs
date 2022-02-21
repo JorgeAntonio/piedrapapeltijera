@@ -39,7 +39,8 @@ namespace PiedraPapelTijera.Components
             {
                 var (_, _, playerWon, computerWon, message) = WinningRules[playerChoice, computerChoice];
                 this.message = message;
-                playerScore = computerWon ? ++ computerScore : computerScore;
+                playerScore = playerWon ? ++playerScore : playerScore;
+                computerScore = computerWon ? ++computerScore : computerScore;
 
                 StateHasChanged();
             };

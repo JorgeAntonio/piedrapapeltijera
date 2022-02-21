@@ -8,6 +8,72 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
+        "HashCode": 982046071,
+        "Kind": "Components.Component",
+        "Name": "PiedraPapelTijera.Components.Game",
+        "AssemblyName": "PiedraPapelTijera",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Game"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "PiedraPapelTijera.Components.Game"
+        }
+      },
+      {
+        "HashCode": 446111327,
+        "Kind": "Components.Component",
+        "Name": "PiedraPapelTijera.Components.Game",
+        "AssemblyName": "PiedraPapelTijera",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "PiedraPapelTijera.Components.Game"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "PiedraPapelTijera.Components.Game",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1065722066,
+        "Kind": "Components.Component",
+        "Name": "PiedraPapelTijera.App",
+        "AssemblyName": "PiedraPapelTijera",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "PiedraPapelTijera.App"
+        }
+      },
+      {
+        "HashCode": 787559664,
+        "Kind": "Components.Component",
+        "Name": "PiedraPapelTijera.App",
+        "AssemblyName": "PiedraPapelTijera",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "PiedraPapelTijera.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "PiedraPapelTijera.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -1987966493,
         "Kind": "Components.Component",
         "Name": "PiedraPapelTijera.Pages.Counter",
@@ -107,35 +173,55 @@
         }
       },
       {
-        "HashCode": 982046071,
+        "HashCode": -1733910971,
         "Kind": "Components.Component",
-        "Name": "PiedraPapelTijera.Components.Game",
+        "Name": "PiedraPapelTijera.Shared.SurveyPrompt",
         "AssemblyName": "PiedraPapelTijera",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Game"
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "PiedraPapelTijera.Components.Game"
+          "Common.TypeName": "PiedraPapelTijera.Shared.SurveyPrompt"
         }
       },
       {
-        "HashCode": 446111327,
+        "HashCode": 1800443455,
         "Kind": "Components.Component",
-        "Name": "PiedraPapelTijera.Components.Game",
+        "Name": "PiedraPapelTijera.Shared.SurveyPrompt",
         "AssemblyName": "PiedraPapelTijera",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "PiedraPapelTijera.Components.Game"
+            "TagName": "PiedraPapelTijera.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "PiedraPapelTijera.Components.Game",
+          "Common.TypeName": "PiedraPapelTijera.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -265,92 +351,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "PiedraPapelTijera.Shared.NavMenu",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1733910971,
-        "Kind": "Components.Component",
-        "Name": "PiedraPapelTijera.Shared.SurveyPrompt",
-        "AssemblyName": "PiedraPapelTijera",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "PiedraPapelTijera.Shared.SurveyPrompt"
-        }
-      },
-      {
-        "HashCode": 1800443455,
-        "Kind": "Components.Component",
-        "Name": "PiedraPapelTijera.Shared.SurveyPrompt",
-        "AssemblyName": "PiedraPapelTijera",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "PiedraPapelTijera.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "PiedraPapelTijera.Shared.SurveyPrompt",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1065722066,
-        "Kind": "Components.Component",
-        "Name": "PiedraPapelTijera.App",
-        "AssemblyName": "PiedraPapelTijera",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "PiedraPapelTijera.App"
-        }
-      },
-      {
-        "HashCode": 787559664,
-        "Kind": "Components.Component",
-        "Name": "PiedraPapelTijera.App",
-        "AssemblyName": "PiedraPapelTijera",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "PiedraPapelTijera.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "PiedraPapelTijera.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
